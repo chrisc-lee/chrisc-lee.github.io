@@ -1,0 +1,252 @@
+/* general styles */
+body {
+  background-color: #efecec;
+  color: #363434;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
+
+a {
+  color: #363434;
+}
+
+a:hover {
+  color: #5c5757;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  font-size: 4rem;
+  margin-top: 0;
+  padding-top: 2rem;
+}
+
+h2 {
+  font-family: 'Muli', sans-serif;
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Muli', sans-serif;
+}
+
+h4 {
+  font-size: 2.5rem;
+  font-family: 'Muli', sans-serif;
+}
+
+h5 {
+  font-size: 1.5rem;
+  font-family: 'Muli', sans-serif;
+}
+
+/* line breaks */
+hr {
+  border: dotted gray 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 5%;
+}
+
+/* Home Page */
+/*Nav Bar*/
+.navbar {
+  background-color: #62929a;
+}
+
+.nav-link {
+  color: #363434;
+}
+
+.nav-link:hover {
+  color: #5c5757;
+}
+
+/*Top Section*/
+#top {
+  background-color: #62929a;
+  text-align: center;
+}
+
+.topCloud {
+  padding-top: 2.5rem;
+  position: absolute;
+  top: 25%;
+  right: 5%;
+}
+
+.bottomCloud {
+  position: absolute;
+  left: 5%;
+  padding-right: 3rem;
+  bottom: 100px;
+}
+
+/*middle*/
+#middle {
+  padding-top: 2.5rem;
+  text-align: center;
+}
+
+/* who i am */
+.middleImg {
+  padding-bottom: 1rem;
+  width: 100px;
+}
+
+#hi {
+  max-width: 500px;
+  margin: auto;
+}
+
+.hiPara {
+  line-height: 2;
+}
+
+/* what i do 1 */
+#gameDesign {
+  margin: 2.5rem 0 5rem;
+  text-align: left;
+}
+
+.gameDesignHeading {
+  padding-top: 50px;
+  margin-left: 35px;
+}
+
+/* what i do 2 */
+#appDesign {
+  margin: 2.5rem 0 5rem;
+  text-align: left;
+}
+
+.appDesignHeading {
+  padding-top: 50px;
+  margin-left: 35px;
+}
+
+/* what i do 3 */
+#webDesign {
+  margin: 2.5rem 0 1.5rem;
+  text-align: left;
+}
+
+/* contact me */
+#contactMe {
+  padding-bottom: 100px;
+}
+
+.btn-info {
+  background-color: #62929a;
+  border-color: #62929a;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.contactHeader {
+  padding-bottom: 20px;
+}
+
+.contactSubHeader {
+  padding-bottom: 20px;
+}
+
+.contactParagraph {
+  padding: 20px 0 25px;
+}
+
+.mailIcon {
+  position: relative;
+  right: 1rem;
+}
+
+/*bottom*/
+#bottom {
+  background-color: #62929a;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+/* social media links */
+#bottom a {
+  color: #363434;
+  padding: 0 1.5rem;
+  text-decoration: none;
+}
+
+#bottom a:hover {
+  color: #5c5757;
+}
+
+/* copyright */
+.copyright {
+  font-size: 10px;
+  padding-top: 2.5rem;
+}
+
+/* Project Page */
+/* Project heading */
+.projectImg {
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.projectHead {
+  padding-bottom: 1rem;
+}
+
+.projectPara {
+  line-height: 2;
+  padding-bottom: 2rem;
+}
+
+.projectPara a {
+  text-decoration: underline;
+}
+
+/* project area */
+#projectArea {
+  background-color: #363434;
+  color: #efecec;
+  text-align: center;
+}
+
+.project1Img {
+  border-radius: 1%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  max-width: 500px;
+  margin: 40px 0 100px;
+}
+
+.projectTxt {
+  max-width: 500px;
+  margin: auto;
+}
+
+.project1SubHead {
+  color: #bebcbc;
+  padding-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #5c5757;
+  border-color: #5c5757;
+}
+
+.btn-primary:hover {
+  background-color: #4b4646;
+  border-color: #4b4646;
+}
+
+.projectBtnArea {
+  padding-bottom: 100px;
+}
+
+/* project contact me */
+#contactMeProject {
+  background-color: #efecec;
+  color: #363434;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
