@@ -1,2 +1,2 @@
-# seoksah.github.io
+# chrisc-lee.github.io
 Personal CV Website
