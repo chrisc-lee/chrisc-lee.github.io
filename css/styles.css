@@ -219,6 +219,12 @@ hr {
   margin: 40px 0 100px;
 }
 
+.project2Img {
+  border-radius: 1%;
+  max-width: 500px;
+  margin: 40px 0 100px;
+}
+
 .projectTxt {
   max-width: 500px;
   margin: auto;
